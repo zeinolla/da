@@ -327,6 +327,7 @@ justify-content: center;
             }
             
             header {
+
                 margin: 0 auto;
                 margin-bottom: 0px !important;
                 bottom:  0px !important;
@@ -355,7 +356,7 @@ justify-content: center;
                     .section_a{
                        
                     margin: 0;
-                    width: 100%;
+                    max-width: 768px !important;
                         margin-top: 0px;
                     }
                     .header_types li
@@ -383,6 +384,10 @@ justify-content: center;
 
                         }
                       
+                    .footer{
+                        max-width: 768px !important;
+
+                    }
 
 
                     .header_types.active {
@@ -440,7 +445,160 @@ justify-content: center;
 
                     }
     }
+    @media (max-width: 375px) {
+        .ceen> .nav-toggle {
+             display: block !important; 
+             }
+             
+             header {
+             
+                max-width: 325px !important;
+                
+ background-color: chartreuse !important;
+            
+                 margin-bottom: 0px !important;
+                 bottom:  0px !important;
+                 margin: 0 !important;
 
+ 
+                 }
+ 
+                 .header_types {
+                     margin-bottom: 0px !important;
+ background-color: brown;
+ max-width: 345px !important;
+ 
+                     margin-top: 100px !important;
+ 
+                     max-height: 0;
+                     background: white;
+                    display: block;
+                     position: absolute;
+                     overflow: hidden;
+                     right: 0;
+                     left: 0;
+                     margin: 0;
+                     padding: 0;
+                     z-index: 3;
+                     }
+                     .section_a{
+                        background-color: burlywood;
+
+                        max-width: 325px !important;
+
+                         margin-top: 0px;
+                     }
+                     .header_types li
+                      {
+ 
+ 
+ 
+                         display: flex;
+                         flex-direction: column;
+                         text-align: center;
+                         background-color: burlywood;
+
+                         border-bottom: 1px solid #EBEBE3;
+                         margin-right: 0;
+                         }
+                     .zz{
+                        max-width: 325px !important;
+
+                             height: 33% !important;;
+                             background-color: #EF5A42;
+                         }
+                         .ceen>.header_types{
+                             height: 100%;
+                         }
+                         .header_types >ul{
+                             height: 100% !important;
+ 
+                         }
+                       
+                     .footer{
+                        max-width: 325px !important;
+
+                        background-color: cadetblue;
+
+ 
+                     }
+ 
+ 
+                     .header_types.active {
+                         
+                         max-height: 15vh !important;;
+                         top: 0px;
+                         
+                         
+                     }
+                     .header_types>.c2{
+                        background-color: burlywood;
+
+                         display: none;
+                     }
+                     
+                     .menu{
+                        background-color: burlywood;
+
+                        max-width: 325px !important;
+
+                         
+                     }
+                     
+                    .menu>.abf{
+                        width: 100% !important;
+                        height: 200vh;
+                        float: none;
+                         
+                         
+                     }
+                     .menu>.b{
+                         width: 100% !important;
+ 
+                         height: 180vh;
+                         float: none;
+                          
+                          
+                      }
+                      .a>.a2{
+     
+                         height: 26vh;
+                        
+                     }
+                      .a{
+                                                 background-color: burlywood;
+
+                          bottom: 0;
+                      }
+                      .b{
+                        background-color: burlywood;
+
+                          top:0;
+                      }
+                     
+                     .ceen{
+                        max-width: 305px !important;
+                        
+
+                        background-color: burlywood;
+
+                       
+ 
+                        
+                     }
+                     .all{
+                       
+                     
+ 
+                     }
+                     .lol{
+                         margin: 0;
+                        max-width: 325px !important;
+
+
+                        
+                     }
+     }
 
 
 
